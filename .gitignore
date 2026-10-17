@@ -1,0 +1,18 @@
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+*.log
+.DS_Store
+
+# Secrets (examples are safe to commit)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Private recordings and local artifacts
+recordings/
+tmp/
