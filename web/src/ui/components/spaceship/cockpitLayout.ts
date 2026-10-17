@@ -35,7 +35,7 @@ export interface CameraPose {
 
 export const CAMERA_POSES: Record<LobbyView | 'launch', CameraPose> = {
   lobby: { position: [0, 1.64, 1.15], target: [0, 1.42, -3], fovScale: 1 },
-  console: { position: [0, 1.42, -0.3], target: [0, 1.1, -1.65], fovScale: 0.8 },
+  console: { position: [0, 1.42, -0.2], target: [0, 1.1, -1.65], fovScale: 0.92 },
   radar: { position: [0, 1.48, -0.05], target: [0, 1.66, -2.3], fovScale: 0.9 },
   profile: { position: [0, 1.62, 0.5], target: [0, 2.28, -1.8], fovScale: 0.9 },
   settings: { position: [-0.42, 1.68, -0.85], target: [-1.25, 1.12, -2.4], fovScale: 0.9 },
